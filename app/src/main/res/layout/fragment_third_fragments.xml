@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.second_fragments"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etnum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the first "/>
+
+    <EditText
+        android:id="@+id/etnum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the second "/>
+
+
+    <Button
+        android:id="@+id/btnSwap"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Swap a number "/>
+
+    <TextView
+        android:id="@+id/etResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="Results"/>
+
+
+
+
+
+</LinearLayout>

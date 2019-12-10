@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+
+    <Button
+        android:id="@+id/btnfirstfragments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load first fragments"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+    <Button
+        android:id="@+id/btnSwapfragments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Swap a number"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <Button
+        android:id="@+id/btnAreaCirclefragments"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Area of circle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <Button
+        android:id="@+id/btnAutoMorphic"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Check auto Morphic"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+
+    <RelativeLayout
+        android:id="@+id/fragmentContainner"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+
+    </RelativeLayout>
+
+</LinearLayout>
